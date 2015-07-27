@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+	<head>
+		<title>Elien</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+	</head>
+	<body>
+		<div id="website">
+
+			<header>
+				<img src="img/logo.png" alt="Logo" width="142" height="75" />
+			</header>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">Elien</a></li>
+					<li><a href="install.html">Install</a></li>
+					<li><a href="anleitung.html">Anleitung</a></li>
+					<li><a href="editor.html">Editor</a></li>
+					<li><a href="bilder.html">Bilder</a></li>
+					<li><a href="technik.html">Technik</a></li>
+				</ul>
+			</nav>
+
+			<div id="websitebody">
+				<!--=========================================================-->
+
+				<p>
+				Auf einem <b>Linux</b>system muss man folgende Programme und Bibliotheken installieren:
+				</p>
+				<ul>
+					<li>SDL2</li>
+					<li>glew</li>
+					<li>glm</li>
+					<li>lua5.2</li>
+					<li>git</li>
+				</ul>
+				<p>
+				Es muss ein aktueller C++ Kompiler verwendet werden da C++11 benutzt wird.
+				Desweiteren ben&ouml;tigt man verschiedene Helfer wie make, die aber auf jedem Linuxsystem vorhanden sein sollten.
+				</p>
+
+				<code>
+					$ git clone https://github.com/madowlet/elien.git<br/>
+					$ cd elien<br/>
+					$ make -j<br/>
+					$ bash run.sh
+				</code>
+
+				<!--=========================================================-->
+				</div>
+
+			<footer>
+				<a href="https://github.com/madowlet/elien" target="_blank">Elien auf GitHub</a>
+				<p>Letzte &Auml;nderung am 28.7.2015</p>
+			</footer>
+		</div>
+	</body>
+</html>

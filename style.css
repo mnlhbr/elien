@@ -1,0 +1,153 @@
+/*============================================================================*/
+/*			BODY	*/
+/*============================================================================*/
+body
+{
+	margin:0;
+	padding:0;
+	color:#000000;
+	background-color:#eeeeee;
+	font-size:100%;
+}
+
+#website
+{
+	margin:0 auto;
+	padding:0px;
+	width:804px;
+	border-radius: 10px 10px 10px 10px;
+	color:#000000;
+	background-color:#008800;
+	overflow:hidden;
+}
+
+/*============================================================================*/
+/*			WEBSITE	*/
+/*============================================================================*/
+#websitebody
+{
+	margin-left:134px;
+	padding:20px;
+	min-height:500px;
+	background-color:#fafafa;
+	border-right:1px solid #008800;
+	overflow:hidden;
+}
+
+/*============================================================================*/
+/*			HEADER	*/
+/*============================================================================*/
+header
+{
+	margin:0;
+	padding:10px 20px 20px;
+	height:60px;
+	border-radius: 10px 10px 0px 0px;
+	color:#000000;
+	background-color:#008800;
+	overflow:hidden;
+}
+
+/*============================================================================*/
+/*			FOOTER	*/
+/*============================================================================*/
+footer
+{
+	margin:0;
+	padding:20px 20px 20px 134px;
+	height:20px;
+	border-radius: 0px 0px 10px 10px;
+	color:white;
+	background-color:#008800;
+	overflow:hidden;
+}
+
+footer a:link, footer a:visited
+{
+	margin:0px 40px 0px 0px;
+	padding:0;
+	text-decoration:none;
+	color:white;
+}
+
+footer a:hover, footer a:active
+{
+	text-decoration:underline;
+}
+
+footer p
+{
+	margin:0px 0px 0px 40px;
+	padding:0;
+	display:inline;
+}
+
+/*============================================================================*/
+/*			NAV	AND A LITLE BIT OF ASIDE	*/
+/*============================================================================*/
+nav
+{
+	margin:0;
+	padding:0;
+	color:white;
+}
+
+nav ul, aside ul
+{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	overflow:hidden;
+}
+
+nav ul li, aside ul li
+{
+	margin:0;
+	padding:0;
+	float:left;
+	overflow:hidden;
+}
+
+nav a:link,nav a:visited, aside a:link,aside a:visited
+{
+	display:block;
+	margin:0;
+	padding:7px 3px;
+	width:128px;
+	color:white;
+	background-color:#00aa00;
+	text-decoration:none;
+	text-align:center;
+	font-size:1.2em;
+	font-variant:small-caps;
+	font-weight:bold;
+	transition:background-color 0.5s;
+	-moz-transition:background-color 0.5s;
+	-webkit-transition:background-color 0.5s;
+	-o-transition:background-color 0.5s;
+}
+
+nav a:hover, nav a:active, aside a:hover,aside a:active
+{
+	background-color:#006600;
+	transition:background-color 0.5s;
+	-moz-transition:background-color 0.5s;
+	-webkit-transition:background-color 0.5s;
+	-o-transition:background-color 0.5s;
+}
+
+/*============================================================================*/
+/*			ASIDE	*/
+/*============================================================================*/
+aside
+{
+	margin:0;
+	padding:0;
+	width:134px;
+	float:left;
+}
+
+aside a:link,aside a:visited
+{
+	font-size:1.1em;
+}
